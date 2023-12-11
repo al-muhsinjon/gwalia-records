@@ -1,20 +1,10 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
-// import React, { useState } from "react";
 import Button from "./button";
 
 const Navbar = () => {
-  // const [name, setName] = useState("bg-transparent");
-
-  // function scroolar() {
-  //   if (window.scrollY > 10) {
-  //     setName("bg-gray-400");
-  //   } else {
-  //     setName("bg-transparent");
-  //   }
-  // }
-  // window.addEventListener("scroll", scroolar);
+ 
 
 
   return (
