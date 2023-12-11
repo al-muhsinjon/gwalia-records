@@ -9,7 +9,7 @@ const Navbar = () => {
 
   return (
     <header
-      className={`fixed top-0 z-50 py-4 left-0 w-full ${name}  md:flex  justify-between items-center px-[7%]`}
+      className={`fixed top-0 z-50 py-4 left-0 w-full md:flex  justify-between items-center px-[7%]`}
     >
       <Link href="/">
         <Image src="/logos.svg" alt="logo" width={300} height={100} />
