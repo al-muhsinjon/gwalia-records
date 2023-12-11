@@ -4,6 +4,7 @@ import About from "@/components/about";
 import Albums from "@/components/albums";
 import Button from "@/components/button";
 import Contact from "@/components/contact";
+import Packages from "@/components/packages";
 import Paragraph from "@/components/paragraph";
 import Tickets from "@/components/tickets";
 import { Poppins } from "next/font/google";
@@ -35,6 +36,7 @@ export default function Home() {
       <Albums />
       <Tickets />
       <Contact />
+      <Packages />
     </>
   );
 }

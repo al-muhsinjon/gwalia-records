@@ -63,7 +63,7 @@ const Albums = () => {
     <section id="albums" className="">
       <SectionHeading>Albums</SectionHeading>
       <div className="w-full h-24 flex md:px-[25%]    my-10 ">
-        <ul className="text-white flex  w-full justify-evenly items-center  text-xl ">
+        <ul className="text-white flex gap-2 w-full justify-evenly items-center  text-xl ">
           {category.map((item, id) => (
             <li
               key={id}
