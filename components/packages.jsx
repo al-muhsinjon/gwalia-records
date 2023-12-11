@@ -33,7 +33,7 @@ const Packages = () => {
           <hr />
           <div className="flex items-center justify-between py-4">
             <FaCheck className="text-red-600" />
-            <p>Qo'shimcha albom xaridlariga 10% chegirma.</p>
+            <p>Qo&apos;shimcha albom xaridlariga 10% chegirma.</p>
           </div>
           <Button>Buy Package</Button>
         </div>
@@ -55,12 +55,12 @@ const Packages = () => {
           <hr />
           <div className="flex items-center justify-between py-4 ">
             <FaCheck className="text-red-600" />
-            <p>1 marta san'atkorlar bilan uchrashuv</p>
+            <p>1 marta san&apos;atkorlar bilan uchrashuv</p>
           </div>
           <hr />
           <div className="flex items-center justify-between py-4">
             <FaCheck className="text-red-600" />
-            <p>Qo'shimcha albom xaridlariga 15% chegirma</p>
+            <p>Qo&apos;shimcha albom xaridlariga 15% chegirma</p>
           </div>
           <Button>Buy Package</Button>
         </div>
@@ -82,12 +82,12 @@ const Packages = () => {
           <hr />
           <div className="flex items-center justify-between py-4 ">
             <FaCheck className="text-red-600" />
-            <p>1 marta san'atkorlar bilan uchrashuv</p>
+            <p>1 marta san&apos;atkorlar bilan uchrashuv</p>
           </div>
           <hr />
           <div className="flex items-center justify-between py-4">
             <FaCheck className="text-red-600" />
-            <p>Qo'shimcha albom xaridlariga 20% chegirma</p>
+            <p>Qo&apos;shimcha albom xaridlariga 20% chegirma</p>
           </div>
           <Button>Buy Package</Button>
         </div>
