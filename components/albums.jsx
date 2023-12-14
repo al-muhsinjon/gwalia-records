@@ -77,7 +77,7 @@ const Albums = () => {
           ))}
         </ul>
       </div>
-      <div className="w-full grid gap-4 md:grid-cols-3">
+      <div className="w-full grid md:gap-4 gap-y-7 md:grid-cols-3">
         {albums.map((album, id) => (
           <Card key={album.id} album={album} />
         ))}
