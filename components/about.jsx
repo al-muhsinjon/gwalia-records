@@ -15,7 +15,7 @@ const About = () => {
           <Image
             src="/about.jpg"
             alt="about"
-            className="object-cover ml-[1rem]"
+            className="md:object-cover object-contain ml-[1rem]"
             fill
           />
         </div>
