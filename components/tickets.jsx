@@ -55,7 +55,7 @@ const Tickets = () => {
                 alt="concert"
               />
             </div>
-            <div className="w-32 md:h-full flex flex-col items-center justify-center text-3xl font-light bg-red-600">
+            <div className="w-32 md:h-full text-white flex flex-col items-center justify-center text-3xl font-light bg-red-600">
               <span>{tick.day}</span>
               <span>/</span>
               <span>{tick.day}</span>

@@ -18,11 +18,11 @@ export default function Home() {
       <main className="w-full h-screen md:bg-[url('../public/main.jpeg')] bg-black md:bg-contain md:bg-right-top bg-center bg-contain bg-no-repeat px-[7%] md:flex items-center ">
         
         <div className="relative z-10 md:top-0 top-40">
-          <h1 className={`md:text-8xl text-4xl  font-bold md:w-[55%] mb-3  `}>
+          <h1 className={`md:text-8xl text-4xl text-white font-bold md:w-[55%] mb-3  `}>
             <span className="text-red-600">Music</span> is the poetry of the air
           </h1>
           <Paragraph
-            className={`md:w-[60%] md:text-xl mb-8 ${saira.className}`}
+            className={`md:w-[60%] md:text-xl text-gray-200 mb-8 ${saira.className}`}
           >
             Horem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
             vulputate libero et velit interdum, ac aliquet odio mattis. Class

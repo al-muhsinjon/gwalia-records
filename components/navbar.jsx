@@ -4,12 +4,9 @@ import Link from "next/link";
 import Button from "./button";
 
 const Navbar = () => {
- 
-
-
   return (
     <header
-      className={`fixed top-0 z-50 py-4 left-0 w-full md:flex bg-[#0000009a] justify-between items-center px-[7%]`}
+      className={`fixed top-0 z-50 py-4 left-0 w-full text-white md:flex bg-[#0000009a] justify-between items-center px-[7%]`}
     >
       <Link href="/">
         <Image src="/logos.svg" alt="logo" width={300} height={100} />

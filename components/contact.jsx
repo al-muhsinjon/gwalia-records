@@ -5,9 +5,14 @@ import { Poppins } from "next/font/google";
 
 const poppins = Poppins({ weight: "400", preload: false });
 
+const getNameALPH = (e) => {
+   e.preventDefault()
+}
+
+
 const Contact = () => {
   return (
-    <section id="contact" className={`pb-28 ${poppins.className}`}>
+    <section id="contact" className={`pb-28 bg-black ${poppins.className}`}>
       <SectionHeading>
         Contact <span className="text-red-600">Us</span>
       </SectionHeading>

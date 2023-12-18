@@ -60,7 +60,7 @@ const Albums = () => {
   ];
 
   return (
-    <section id="albums" className="">
+    <section id="albums" className="bg-black">
       <SectionHeading>Albums</SectionHeading>
       <div className="w-full h-24 flex md:px-[25%]    my-10 ">
         <ul className="text-white flex gap-2 w-full justify-evenly items-center  text-xl ">
