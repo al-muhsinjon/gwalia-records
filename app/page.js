@@ -33,8 +33,8 @@ export default function Home() {
             <Button>View Albums</Button>
           </a>
         </div>
-          <div className="relative overflow-hidden md:hidden w-full h-80 animate-spin-slow top-4" >
-        <Image src="/vinil.png" className="object-contain" alt="" fill />
+          <div className="relative overflow-hidden md:hidden w-full h-80  top-4" >
+        <Image src="/vinil.png" className="object-contain animate-spin-slow" alt="" fill />
         </div>
       </main>
       <About />
